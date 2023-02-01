@@ -1,0 +1,35 @@
+/* Add application styles & imports to this file! */
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+h1,
+p {
+  padding: 1rem;
+  margin: 0;
+}
+
+a {
+  color: deepskyblue;
+}
+
+a:hover {
+  color: skyblue;
+}
+
+code {
+  font-weight: bold;
+  font-size: large;
+}
+
+elastic-container {
+  padding: 1rem;
+}
+
+footer {
+  background: whitesmoke;
+  line-height: 1.5;
+  padding: 1rem;
+  margin: 1rem 0;
+}
