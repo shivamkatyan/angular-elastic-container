@@ -19,11 +19,6 @@ import { ElasticContainerModule } from './elastic-container/elastic-container.mo
       <div contenteditable>Try editing me</div>
       <div *ngFor="let item of items">{{item}}</div>
     </elastic-container>
-    <footer>
-      Powered by <code>ResizeObserver</code> and <code>MutationObserver</code> from 
-      <a target="_blank" href="https://ng-web-apis.github.io">Web APIs for Angular</a>
-      opensource initiative
-    </footer>
   `,
 })
 export class App {
